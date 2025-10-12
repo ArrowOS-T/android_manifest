@@ -80,7 +80,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="arrow-fe" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="arrow" />
   <project path="frameworks/native" name="android_frameworks_native" remote="arrow-f" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="arrow-f" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="arrow" />
 
   <!-- hardware repos -->
@@ -152,17 +152,17 @@
   <project path="packages/apps/ArrowPrebuilts" name="android_packages_apps_ArrowPrebuilts" remote="arrow-f" clone-depth="1" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="arrow" />
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" remote="arrow" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="arrow" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="arrow-f" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="arrow" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="arrow" />
-  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="arrow" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="arrow-f" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" remote="arrow" />
   <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="arrow" />
   <!--project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="arrow" /-->
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" groups="pdk-fs" remote="arrow-f" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="arrow" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="arrow-f" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="arrow" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="arrow-f" />
   <project path="packages/apps/ParallelSpace" name="android_packages_apps_ParallelSpace" remote="arrow" />
   <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="arrow-gitlab" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="arrow" />
@@ -178,7 +178,7 @@
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="arrow" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="arrow-f" />
   <project path="packages/modules/Bluetooth/android/BtHelper" name="android_packages_modules_Bluetooth_android_BtHelper" remote="arrow"/>
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="arrow" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="arrow-f" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="arrow-f" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="arrow-f" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="arrow" />
@@ -188,7 +188,7 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="arrow" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="arrow-f" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="arrow-f" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="arrow-f" />
 
   <!-- prebuilt repos -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="arrow" />
